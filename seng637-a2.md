@@ -36,7 +36,7 @@ More information on JUnit can be found at http://www.junit.org and more informat
 
 ## 1.5 System Under Test
 
-The system to be tested in this lab is JFreeChart [3]. JFreeChart is an open-source Java framework for chart calculation, creation, and display. This framework supports various chart types, such as pie charts, bar charts, line charts, histograms, and others. To begin working with JFreeChart, download the "jfreechart-1.0.19.zip" file from the Github repository ([./seng637-a2-artifacts.zip](seng637-a2-artifacts.zip)) and extract the entire archive to a known location. More information on how to get started with these files will be provided in the familiarization stage (Section 2.1). Note that the versions of JFreeChart distributed for this lab do not correspond to actual releases of JFreeChart. They have been modified for the purposes of this lab.
+The system to be tested in this lab is JFreeChart [3]. JFreeChart is an open-source Java framework for chart calculation, creation, and display. This framework supports various chart types, such as pie charts, bar charts, line charts, histograms, and others. To begin working with JFreeChart, download the "JFreeChart v1.0.zip" file from the Github repository ([./seng637-a2-artifacts.zip](seng637-a2-artifacts.zip)) and extract the entire archive to a known location. More information on how to get started with these files will be provided in the familiarization stage (Section 2.1). Note that the versions of JFreeChart distributed for this lab do not correspond to actual releases of JFreeChart. They have been modified for the purposes of this lab.
 
 The JFreeChart framework is intended to be integrated into other systems as a quick and simple way to add charting functionality to Java applications. With this in mind, the API for JFreeChart is designed to be relatively easy to understand, as it is intended to be used by many developers as an open-source off-the-shelf framework. A snapshot of four different types of charts drawn using JFreeChart is shown in Figure 1.
 
@@ -81,7 +81,7 @@ Ensure that everyone understands the concepts in this section before moving on t
 
 1.  The _Java Settings_ dialog should now be displayed. This dialog has five tabs along the top: _Source_, _Projects_, _Libraries_, _Order and Export_ and _Module Dependencies_. Move to the _Libraries_ tab, and click the _Add External JARs (or Libraries)…_ button.
 
-2.  Select the _jfreechart-1.0.19.jar_ file from the known location that you already extracted in and click _Open_. Click _Add External Libraries_… again, this time add all the .jar files from the _lib_ and _lib/jMock_ directory where you have unzipped the _jfreechart-1.0.19.zip_ file. The Java Settings dialog should now look like Figure 2, below.
+2.  Select the _jfreechart-1.0.19.jar_ file from the known location that you already extracted in and click _Open_. Click _Add External Libraries_… again, this time add all the .jar files from the _lib_ and _lib/jMock_ directory where you have unzipped the _JFreeChart v1.0.zip_ file. The Java Settings dialog should now look like Figure 2, below.
 
 <img src="media/externalLibraries.png" alt="externalLibraries.png" width="360"/>
 
@@ -261,7 +261,7 @@ public class DataUtilitiesTest {
 
 3.  If you have divided the tests and completed them individually, then upon completion of the tests, review each other’s tests, looking for any inconsistencies or defects in the tests themselves.
 
-4.  Execute the test suite you have created on jfreechart-1.0.19.zip. Note that the classes have random defects in them intentionally, and thus several of your tests should fail. Therefore, to write your test methods, you need to follow the specifications, not the actual results.
+4.  Execute the test suite you have created on JFreeChart v1.0.zip. Note that the classes have random defects in them intentionally, and thus several of your tests should fail. Therefore, to write your test methods, you need to follow the specifications, not the actual results.
 
 # 3. Summary
 
