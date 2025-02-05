@@ -36,7 +36,7 @@ More information on JUnit can be found at http://www.junit.org and more informat
 
 ## 1.5 System Under Test
 
-The system to be tested in this lab is JFreeChart [3]. JFreeChart is an open-source Java framework for chart calculation, creation, and display. This framework supports various chart types, such as pie charts, bar charts, line charts, histograms, and others. To begin working with JFreeChart, download the "jfreechart-1.0.19.zip" file from the Github repository ([./seng637-a2-artifacts.zip](seng637-a22-artifacts.zip)) and extract the entire archive to a known location. More information on how to get started with these files will be provided in the familiarization stage (Section 2.1). Note that the versions of JFreeChart distributed for this lab do not correspond to actual releases of JFreeChart. They have been modified for the purposes of this lab.
+The system to be tested in this lab is JFreeChart [3]. JFreeChart is an open-source Java framework for chart calculation, creation, and display. This framework supports various chart types, such as pie charts, bar charts, line charts, histograms, and others. To begin working with JFreeChart, download the "jfreechart-1.0.19.zip" file from the Github repository ([./seng637-a2-artifacts.zip](seng637-a2-artifacts.zip)) and extract the entire archive to a known location. More information on how to get started with these files will be provided in the familiarization stage (Section 2.1). Note that the versions of JFreeChart distributed for this lab do not correspond to actual releases of JFreeChart. They have been modified for the purposes of this lab.
 
 The JFreeChart framework is intended to be integrated into other systems as a quick and simple way to add charting functionality to Java applications. With this in mind, the API for JFreeChart is designed to be relatively easy to understand, as it is intended to be used by many developers as an open-source off-the-shelf framework. A snapshot of four different types of charts drawn using JFreeChart is shown in Figure 1.
 
@@ -190,7 +190,7 @@ The test generation section of this lab (Section 2.2) will require you to genera
 
 ## 2.2 Development of Unit Test Code
 
-This section is recommended to be performed as a group, however the work may be divided and completed individually, or you may wish to employ peer programming to help ensure all requirements are tested. In either way, all the group members should be able to answer the questions from all section (even the sections they did not write) in demo session.
+This section is recommended to be performed as a group, however the work may be divided and completed individually, or you may wish to employ peer programming to help ensure all requirements are tested.
 
 ### 2.2.1 Test Requirements (Classes to be tested)
 
